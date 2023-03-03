@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
+
+.page-header h1 {
+    font-family: 'Oswald' , sans-serif;
+    display: inline;
+    margin-left: 7.5%;
+    color: #96746b;
+    height: 12px;
+    margin-top: 0;
+}
+
+.page-header .main-nav {
+    display: flex;
+    font-size: 16px;
+    list-style: none;
+}
+
+.main-nav li {
+    margin-right: 7.5%;
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 800
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 13%;
+}
+
+/* .page-header {
+    font-family: 'Oswald' , sans-serif;
+    display: inline;
+    margin-left: 7.5%;
+    color: #96746b;
+    height: 12px;
+} */
+
+
+/* #header-menue {
+    float: right;
+    margin-right: 7.5%;
+    margin-top: 16px;
+}
+
+#header-menue a {
+    font-family: 'Raleway' , sans-serif;
+    font-size: 16px;
+    padding-left: 8px;
+    color: #000;
+    font-weight: bold;
+} */
+
+.contents-first {
+    background-image: url('./images/banner-bg.jpg');
+    background-size: cover;
+    height: 700px;
+    background-position: center center;
+    color: #ffff;
+}
+.contents-first h2{
+    font-family: 'Oswald' , sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 65px;
+    color: #c7a17a;
+    margin-left: 7.5%;
+    padding-top: 250px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.contents-first h2 span {
+    font-family: 'Oswald' , sans-serif;
+    color: #96746b;
+    margin: 0;
+}
+
+.contents-first span {
+    font-family: 'Raleway' , sans-serif;
+    margin-left: 7.5%;
+}
+
+.contents-first p {
+    font-family: 'Raleway' , sans-serif;
+    margin-left: 7.5%;
+    height: 20px;
+    width: 90px;
+    background-color: #96746b;
+    /* opacity: 0.4; */
+    padding: 10px;
+    font-weight: bold;
+}
+
+.news-contents-first {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.news-contents-first article {
+    background-image: url(./images/ads-img1.jpg);
+    background-size: contain;
+    margin-left: 7.5%;
+    height: 300px;
+    width: 590px;
+    margin-top: 50px;
+}
+.news-contents-first aside {
+    background-image: url(./images/ads-img2.jpg);
+    background-size: cover;
+    margin-right: 7.5%;
+    height: 300px;
+    width: 590px;
+    margin-top: 50px;
+}
+
+.news-contents-first h3 {
+    font-family: 'Oswald' , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 0;
+    color: #ffff;
+    padding-left: 7.5%;
+    text-shadow: 5px 5px 10px #000;
+    text-transform: uppercase;
+}
+.news-contents-first a {
+    font-family: 'Raleway' , sans-serif;
+    font-weight: bold;
+    padding-left: 7.5%;
+    color: #ffff;
+}
+
+#coffee-house {
+    text-align: center;
+}
+#coffee-house h3 {
+    font-family: 'Oswald' , sans-serif;
+    color: #c7a17a;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+#coffee-house h2 {
+    font-family: 'Oswald' , sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+hr {
+    position: center;
+    width: 300px;
+    border-color: #c7a17a;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* table pattern */
+/* #table-coffee table {
+    width: 300px;
+}
+#table-coffee tbody img {
+    width: 300px;
+
+} */
+
+/* grid pattern */
+.grid {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.item h3 {
+    margin: 0;
+}
+.item span {
+    margin: 0;
+}
+.item p{
+    margin: 0;
+}
+
+.discount {
+    background-image: url('./images/discount-img.jpg');
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    color: #ffff;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.discount h4 {
+    font-family: 'Raleway' , sans-serif;
+    color: #fff;
+    padding-top: 120px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.discount h3 {
+    font-family: 'Oswald' , sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 34px;
+    margin: 0;
+}
+
+.discount p {
+    font-family: 'Raleway' , sans-serif;
+    margin-left: 43%;
+    height: 20px;
+    width: 120px;
+    background-color: #fff;
+    opacity: 0.6;
+    padding: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+#sale {
+    text-align: center;
+}
+#sale h3 {
+    font-family: 'Oswald' , sans-serif;
+    color: #c7a17a;
+    margin-bottom: 0;
+    margin-top: 40px;
+    font-weight: 400;
+}
+#sale h2 {
+    font-family: 'Oswald' , sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* #sale hr {
+    position: center;
+    width: 300px;
+    border-color: #c7a17a;
+    margin-top: 0;
+    margin-bottom: 30px;
+} */
+
+.news-contents-sec {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.news-contents-sec article {
+    background-image: url(./images/ads-img3.jpg);
+    background-size: contain;
+    margin-left: 7.5%;
+    height: 300px;
+    width: 590px;
+}
+.news-contents-sec aside {
+    background-image: url(./images/ads-img4.jpg);
+    background-size: cover;
+    margin-right: 7.5%;
+    height: 300px;
+    width: 590px;
+}
+
+.news-contents-sec h3 {
+    font-family: 'Oswald' , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 0;
+    color: #ffff;
+    padding-left: 7.5%;
+    text-shadow: 5px 5px 10px #000;
+    text-transform: uppercase;
+}
+.news-contents-sec a {
+    font-family: 'Raleway' , sans-serif;
+    font-weight: bold;
+    padding-left: 7.5%;
+    color: #ffff;
+}
+
+.news-contents-trd {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.news-contents-trd article {
+    background-image: url(./images/ads-img5.jpg);
+    background-size: contain;
+    margin-left: 7.5%;
+    height: 300px;
+    width: 590px;
+}
+.news-contents-trd aside {
+    background-image: url(./images/ads-img6.jpg);
+    background-size: cover;
+    margin-right: 7.5%;
+    height: 300px;
+    width: 590px;
+}
+
+.news-contents-trd h3 {
+    font-family: 'Oswald' , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 0;
+    color: #ffff;
+    padding-left: 7.5%;
+    text-shadow: 5px 5px 10px #000;
+    text-transform: uppercase;
+}
+.news-contents-trd a {
+    font-family: 'Raleway' , sans-serif;
+    font-weight: bold;
+    padding-left: 7.5%;
+    color: #ffff;
+}
+
+#reservation h2 {
+    font-family: 'Oswald' , sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.reservation-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.reservation-form article {
+    margin-left: 7.5%;
+    background-color: rgb(244, 244, 244);
+    width: 600px;
+    height: 650px;
+    border-radius: 8px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.reservation-form aside {
+    margin-right: 7.5%;
+    background-color: rgb(244, 244, 244);
+    width: 600px;
+    height: 650px;
+    border-radius: 8px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-left: 6%;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Raleway' , sans-serif;
+}
+
+input {
+    border: none;
+    height: 40px;
+    width: 500px;
+    margin: 8px 0 15px 0;
+}
+
+textarea {
+    border: none;
+    height: 150px;
+    width: 500px;
+    margin: 8px 0;
+}
+
+.reservation-form p {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: 800;
+    height: 40px;
+}
+
+.reservation-form #guest {
+    border: none;
+    height: 40px;
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+input[type="radio"] {
+    width: 30px;
+    height: 12px;
+    margin-top: 0;
+}
+
+.reservation-form #morning {
+    margin-left: 100px;
+}
+
+.reservation-form aside img {
+    margin-left: 36%;
+    width: 150px;
+    height: auto;
+    margin-top: 0;
+}
+
+.reservation-form aside p {
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.reservation-form aside p span {
+    font-family: 'Oswald' , sans-serif;
+    font-size: 20px;
+}
+
+input[type="checkbox"] {
+    height: 12px;
+    margin: 0;
+}
+
+#allow {
+    display: flex;
+    justify-content: start;
+    margin: 0;
+    text-align: start;
+}
+
+.reservation-form aside button {
+    margin-top: 15px;
+    border: none;
+    height: 40px;
+    width: 500px;
+    padding: 10px 0;
+    background-color: #c7a17a;
+    font-weight: 800;
+}
+
+.information {
+    background-image: url(./images/footer-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 320px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    /* margin-top: 20px; */
+    /* margin-bottom: 50px; */
+}
+
+.information .item {
+    color: #fff;
+}
+
+.information #open {
+    color: #fff;
+    margin-left: 110px;
+}
+
+.information h4 {
+    font-family: 'Oswald' , sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+    /* padding-top: 20px; */
+    text-transform: uppercase;
+}
+
+.item p {
+    font-family: 'Oswald' , sans-serif;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 300;
+    color: #c7a17a;
+    margin: 0;
+    padding: 0;
+}
+
+.item h5 {
+    margin: 0;
+    padding: 2px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Oswald' , sans-serif;
+}
+
+.information input {
+    width: 200px;
+    height: 40px;
+    border: none;
+}
+.information button {
+    width: 80px;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    padding: 10px 0;
+    background-color: #c7a17a;
+    font-weight: 800;
+}
+
+.information thead {
+    font-size: 16px;
+    font-weight: 900;
+    text-align: right;
+}
+.information tbody {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.footer {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(25, 6, 6);
+    height: 70px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 50px; */
+    color: #fff;
+    text-align: center;
+}
+
+.footer .item h6 {
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Raleway' , sans-serif;
+}
+
+.footer .item h4 {
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.footer .item img {
+    margin-top: 20px;
+}
